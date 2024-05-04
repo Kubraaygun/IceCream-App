@@ -33,7 +33,8 @@ test("Koşulların onaylanmasına göre buton aktifliği", async () => {
 });
 
 
-test("Onay butonu hover durumuna göre bildirim gözükür", ()=>{
+
+test("Onay butonu hover durumuna göre bildirim gözükür", async()=>{
  const user=userEvent.setup()
  render(<Form/>)
 
@@ -51,7 +52,18 @@ const button= screen.getByRole("button")
 const popup=screen.getByText(/size gerçekten/i) //i>insensetive
 
 //1-checkbox tikle
-//2-mouse butonunun üzerine götür
-//3-
-//4-
+await user.click(checkbox)
+
+//2-bildirim gözükmüyor mu?
+expect(popup).not.toBeVisible()//opacity>0 || display !==none || visibity!==header
+
+//3-mouse butonunun üzerine götür
+fireEvent.mouseEnter(button)
+
+//4-bildirim gözüküyor mu?
+expect(popup).toBeVisible()
+//5-mouse'u butonun üzerinden cek
+fireEvent.mouseLeave(button)
+//6-bildirim gözükmüyor mu?
+expect(popup).not.toBeVisible()
 })
