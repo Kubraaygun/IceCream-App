@@ -21,5 +21,6 @@ test("API'dan gelen veriler için ekrana kartlar basılır", async () => {
 
   //ekrana basılan resimleri al
   const image = await screen.findAllByAltText("çeşit-resim");
-  //
+  //gelen resimlerin sayısı 1den büyük mü 
+  expect(images.length).toBeGreaterThanOrEqual(1)
 });
