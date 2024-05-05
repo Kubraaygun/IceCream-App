@@ -16,8 +16,8 @@ const Scoops = () => {
   
   <div className="container my-5">
     <h1>Dondurma Çeşitleri</h1>
-    <p>Tanesi <span className="text-success">20₺</span> </p>
-    <h3>Çeşitler Ücreti: <span className="text-success">{basket.length*20}</span>
+    <p>Tanesi <span  className="text-success">20</span>₺ </p>
+    <h3>Çeşitler Ücreti: <span data-testid="total" className="text-success">{basket.length*20}</span>
     </h3>
     
     <div className="row gap-5 justify-content-between mt-4 p-3">
