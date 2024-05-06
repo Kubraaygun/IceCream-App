@@ -1,6 +1,6 @@
 <h1>Ice Cream App</h1>
 Bu proje, basit bir dondurma sipariş uygulamasıdır. Kullanıcılar dondurma çeşitlerini seçebilir, soslar ekleyebilir ve siparişi onaylayabilirler. Ayrıca, kullanıcıların siparişlerini onaylamadan önce belirli koşulları kabul etmeleri gerekmektedir.
-
+<br>
 Projenin temel amacı, React bileşenlerinde yapılan değişikliklerin doğru çalışıp çalışmadığını test etmek ve uygulamanın temel işlevselliğini sağlamaktır. Bunun için Jest kullanılarak unit testler yazılmıştır.
 
 <h2> Test Geliştirme Süreçleri</h2>
@@ -20,6 +20,7 @@ Projenin temel amacı, React bileşenlerinde yapılan değişikliklerin doğru �
 - Unit Test yazarken kullanıcı etkileşimi tetiklemenin 2 yolu bulunuyor
 
 <h3>FireEvent</h3>
+
 - rtl içerisinde gelen olay tetikleme methodu
 - Gerçek kullanıcıdan uzak tepkiler verdiği için artık yerini userEvente bırakmıştır
 - Tetiklenen olaylar gerçek bir insanın tepkimesinden çok daha hızlı bir şekilde gerçekleşir.
