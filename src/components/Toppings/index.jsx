@@ -18,7 +18,7 @@ isChecked //eklenecek mi
     <div className="container">
         <h1>Sos Çeşitleri</h1>
         <p>Tanesi <span className="text-success">3</span>₺</p>
-        <h3>Soslar Ücreti <span data-testid="total">{basket.length*3}</span>₺</h3>
+        <h3>Soslar Ücreti <span className="text-success" data-testid="total">{basket.length*3}</span>₺</h3>
 
         <div className="row gap-3 p-3">{data.map((item)=>(
             <div className="top-card" style={{width:"150px"}}>
