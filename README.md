@@ -1,6 +1,7 @@
 <h1>Ice Cream App</h1>
 Bu proje, basit bir dondurma sipariş uygulamasıdır. Kullanıcılar dondurma çeşitlerini seçebilir, soslar ekleyebilir ve siparişi onaylayabilirler. Ayrıca, kullanıcıların siparişlerini onaylamadan önce belirli koşulları kabul etmeleri gerekmektedir.
 <br>
+<br>
 Projenin temel amacı, React bileşenlerinde yapılan değişikliklerin doğru çalışıp çalışmadığını test etmek ve uygulamanın temel işlevselliğini sağlamaktır. Bunun için Jest kullanılarak unit testler yazılmıştır.
 
 
