@@ -48,3 +48,8 @@ Projenin temel amacı, React bileşenlerinde yapılan değişikliklerin doğru �
 - @testing-library/user-event@14.0
 - json-server
 - bootstrap
+
+
+<h2>Ekran Görüntüsü</h2>
+
+![](./public/iceCream.gif)
